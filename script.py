@@ -106,7 +106,7 @@ def busca_gupy():
 
 
         try:
-            fechar_banner = WebDriverWait(navegador, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, 'a.cc-btn.cc-deny')))
+            fechar_banner = WebDriverWait(navegador, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, '.dp-bar-button[title="Rejeitar"]')))
             fechar_banner.click()
         except Exception as e:
             print("Banner de consentimento não encontrado ou já foi fechado.")
@@ -144,5 +144,4 @@ def busca_gupy():
 
 
 busca_gupy()
-
 busca_linkedin()

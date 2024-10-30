@@ -1,6 +1,6 @@
 Este projeto contém scripts em Python para coletar vagas de emprego de uma vaga específica do LinkedIn e Gupy usando Selenium
 
-Descrição: Um scraper que busca novas vagas em sites de emprego (como LinkedIn e Gupy) e mostra o resultado no terminal, (De qual site a vaga foi encontrada, tipo de trabalho e localização)
+Descrição: Um script que busca novas vagas em sites de emprego (como LinkedIn e Gupy) e mostra o resultado no terminal (De qual site a vaga foi encontrada, tipo de trabalho e localização)
 
 
 
@@ -11,7 +11,7 @@ Descrição: Um scraper que busca novas vagas em sites de emprego (como LinkedIn
 ## Instalação
 
 1. Clone o repositório:
-git clone https://github.com/seu_usuario/monitoramento_vagas.git
+git clone https://github.com/ThaliaXavier/proj_automacao.git
 
 2. Navegue até o diretório do projeto:
 cd proj_automacao
@@ -24,7 +24,7 @@ cd proj_automacao
 
 ## Uso
 
-1. Execute o scraper:
+1. Execute o script:
 python script.py
 
 
